@@ -1,7 +1,7 @@
 Package: QDNAseq.mm10
 Type: Package
 Title: Bin annotation mm10.
-Version: 0.99.1
+Version: 0.99.0
 Date: 2015-09-04
 Author: Daoud Sie [aut, cre]
 Maintainer: Daoud Sie <d.sie@vumc.nl>
