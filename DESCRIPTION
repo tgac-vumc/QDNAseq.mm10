@@ -1,0 +1,16 @@
+Package: QDNAseq.mm10
+Type: Package
+Title: Bin annotation mm10.
+Version: 0.99.1
+Date: 2015-09-04
+Author: Daoud Sie [aut, cre]
+Maintainer: Daoud Sie <d.sie@vumc.nl>
+Description: This package provides bin annotations for the mouse genome (mm10)
+Depends: R (>= 3.2.1), QDNAseq
+Imports: 
+Suggests: QDNAseq
+biocViews: CopyNumberVariation, DNASeq, Genetics, GenomeAnnotation,
+        Preprocessing, QualityControl, Sequencing
+License: GPL
+URL: https://github.com/tgac-vumc/QDNAseq.mm10
+BugReports: https://github.com/tgac-vumc/QDNAseq.mm10/issues
