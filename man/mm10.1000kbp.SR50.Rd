@@ -25,7 +25,7 @@ samples from Gnerre et al. (see references),
 
 \examples{
 data("mm10.1000kbp.SR50")
-assign(bins, "mm10.1000kbp.SR50")
+assign("bins", get("mm10.1000kbp.SR50"))
 \dontrun{readCounts <- binReadCounts(bins=bins, path="./bam")}
 
 # or
@@ -47,8 +47,8 @@ Olshen A, van Thuijl H, van Essen H, Eijk P, Rustenburg F, Meijer G, Reijneveld
 J, Wesseling P, Pinkel D, Albertson D, Ylstra B 2014 \emph{Genome Research}
 vol: \bold{24 (12)} pp: 1--11
 
-Fast Computation and Applications of Genome Mappability. Derrien T, Estellé J,
-Sola S, Knowles D, Raineri E, Guigó R, Ribeca P January 19, 2012
+Fast Computation and Applications of Genome Mappability. Derrien T, Estelle J,
+Sola S, Knowles D, Raineri E, Guigo R, Ribeca P January 19, 2012
 \emph{PLOS ONE} doi: 10.1371/journal.pone.0030377
 
 High-quality draft assemblies of mammalian genomes from massively parallel 

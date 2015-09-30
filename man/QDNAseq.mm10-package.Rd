@@ -22,7 +22,7 @@ mm10.1000kbp.SR50\cr
 
 \examples{
 data("mm10.30kbp.SR50")
-assign(bins, "mm10.30kbp.SR50")
+assign("bins", get("mm10.30kbp.SR50"))
 \dontrun{readCounts <- binReadCounts(bins=bins, path="./bam")}
 
 # or
